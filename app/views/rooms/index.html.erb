@@ -1,0 +1,8 @@
+<%= form_with( url: root_path, local: true, method: :get, class: "search-form") do |form| %>
+  <%= form.text_field :keyword, placeholder: "ROOM NO", class: "search-input" %>
+  <%= form.submit "検索", class: "search-btn" %>
+<div class="contents row">
+  <%= form.submit "inspection", class: "inspection-btn" %>
+    <%= form.submit "setting", class: "inspection-btn" %>
+</div>
+  <% end %>

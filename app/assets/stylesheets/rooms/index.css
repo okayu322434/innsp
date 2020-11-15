@@ -1,0 +1,27 @@
+.contact {
+  height: 800px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  width: 600px;
+}
+
+.name_form {
+  margin-bottom: 10px;
+}
+
+.message_form {
+  margin-bottom: 10px;
+}
+
+.name_form,
+.message_form {
+  width: 500px;
+  padding: 15px;
+  border: 1px solid white;
+  display: block;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>INNsP</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__bar row">
+        <h1 class="header_title"><a href="/">INNsP</a></h1>
+        <%# <% if user_signed_in? %> 
+          <div class="user_nav grid-6">
+                    <span>
+                    <%# <%= current_user.nickname %> 
+            <ul class="user__info">
+              <%# <li>
+                <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+              <%# </li>  %>
+            </ul>
+          </span>
+          </div>
+        <%# <% end %> 
+      </div>
+    </header>
+      <%= yield %>
+    <footer>
+    </footer>
+  </body>
+</html>
