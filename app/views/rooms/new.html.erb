@@ -1,0 +1,11 @@
+<form action="/rooms" method="post">
+<div class="contents row">
+  <div class="room-setting">
+    <h3>部屋を登録する</h3>
+      <%= form_with(model: @room, local: true) do |form| %>
+      <%= form.text_field :room_no, placeholder: "ROOM NO" %>
+      <%= form.submit "SEND" %>
+  </div>
+    <% end %>
+
+</div>

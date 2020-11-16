@@ -7,7 +7,7 @@ Rails.application.routes.draw do
     end
   end
 
-  # resources :rooms, only:[:new, :index]
+  resources :rooms, only:[:new, :index, :create]
 
 end
 

@@ -1,27 +1,65 @@
-.contact {
-  height: 800px;
-  background-color: lightgray;
+
+.hedder_image {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+  align-items: center;
+  justify-content: center;
+  border-bottom:solid;
+  border-color:lightgray;
+  border-width:1px;
+}
+
+
+.hometag {
+  width: 30%;
   display: flex;
   justify-content: center;
+  position: relative;
+  left: 33%;
+}
+
+.search {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.registration {
+  height: 450px;
+  width: 100%;
+  display: flex;
   align-items: center;
+  position: relative;
+  justify-content: space-around;
+  border-bottom:solid;
+  border-color:lightgray;
+  border-width:1px;
 }
 
-.contact-form {
-  width: 600px;
+.room {
+  width: 300px;
+  height: 300px;
 }
 
-.name_form {
-  margin-bottom: 10px;
+
+.room-setting {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: space-around;
+  border-bottom:solid;
+  border-color:lightgray;
+  border-width:1px;
 }
 
-.message_form {
-  margin-bottom: 10px;
-}
-
-.name_form,
-.message_form {
-  width: 500px;
-  padding: 15px;
-  border: 1px solid white;
-  display: block;
+.c {
+  display: flex;
+  position: relative;
+  justify-content: center;
 }
