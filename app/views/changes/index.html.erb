@@ -1,0 +1,10 @@
+<div class="contents row">
+  <% @change.each do |change| %>
+    <div class="content_post" style="background-image: url(<%= change.image %>);">
+      <p><%= change.text %></p>
+      <span class="name">
+        <%= change.name %>
+      </span>
+    </div>
+  <% end %>
+</div>
