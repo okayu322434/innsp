@@ -71,6 +71,7 @@ Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello
 | ------- | ------- | ------------------------------ |
 | rooms   | references | null: false, foreign_key: true |
 | users   | references | null: false |
+| bath_inspections| references | null: false |
 | q1      | boolean   | null: false |
 | q2      | boolean   | null: false |
 | q3      | boolean   | null: false |
@@ -102,6 +103,7 @@ Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello
 | ------- | ------- | ------------------------------ |
 | rooms   | references | null: false, foreign_key: true |
 | users   | references | null: false |
+| room_inspections| references | null: false |
 | q1      | boolean   | null: false |
 | q2      | boolean   | null: false |
 | q3      | boolean   | null: false |
@@ -133,6 +135,7 @@ Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello
 | ------- | ------- | ------------------------------ |
 | rooms   | references | null: false, foreign_key: true |
 | users   | references | null: false |
+| bed_inspections| references | null: false |
 | q1      | boolean   | null: false |
 | q2      | boolean   | null: false |
 | q3      | boolean   | null: false |
@@ -162,21 +165,7 @@ Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello
 
 | Column | Type   | Options     |
 | ------ | ------ | ----------- |
-| q1     | text   | null: false |
-| q2     | text   | null: false |
-| q3     | text   | null: false |
-| q4     | text   | null: false |
-| q5     | text   | null: false |
-| q6     | text   | null: false |
-| q7     | text   | null: false |
-| q8     | text   | null: false |
-| q9     | text   | null: false |
-| q10    | text   | null: false |
-| q11    | text   | null: false |
-| q12    | text   | null: false |
-| q13    | text   | null: false |
-| q14    | text   | null: false |
-| q15    | text   | null: false |
+| title  | text   | null: false |
 
 ### Association
 
@@ -189,21 +178,7 @@ Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello
 
 | Column | Type   | Options     |
 | ------ | ------ | ----------- |
-| q1     | text   | null: false |
-| q2     | text   | null: false |
-| q3     | text   | null: false |
-| q4     | text   | null: false |
-| q5     | text   | null: false |
-| q6     | text   | null: false |
-| q7     | text   | null: false |
-| q8     | text   | null: false |
-| q9     | text   | null: false |
-| q10    | text   | null: false |
-| q11    | text   | null: false |
-| q12    | text   | null: false |
-| q13    | text   | null: false |
-| q14    | text   | null: false |
-| q15    | text   | null: false |
+| title  | text   | null: false |
 
 ### Association
 
@@ -216,21 +191,7 @@ Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello
 
 | Column | Type   | Options     |
 | ------ | ------ | ----------- |
-| q1     | text   | null: false |
-| q2     | text   | null: false |
-| q3     | text   | null: false |
-| q4     | text   | null: false |
-| q5     | text   | null: false |
-| q6     | text   | null: false |
-| q7     | text   | null: false |
-| q8     | text   | null: false |
-| q9     | text   | null: false |
-| q10    | text   | null: false |
-| q11    | text   | null: false |
-| q12    | text   | null: false |
-| q13    | text   | null: false |
-| q14    | text   | null: false |
-| q15    | text   | null: false |
+| title  | text   | null: false |
 
 ### Association
 
