@@ -1,8 +1,27 @@
 <%= form_with( url: root_path, local: true, method: :get, class: "search-form") do |form| %>
+<div class="search">
   <%= form.text_field :keyword, placeholder: "ROOM NO", class: "search-input" %>
   <%= form.submit "検索", class: "search-btn" %>
-<div class="contents row">
-  <%= form.submit "inspection", class: "inspection-btn" %>
-    <%= form.submit "setting", class: "inspection-btn" %>
+  </div>
+
+<div class="registration">
+
+  <div class="insp">
+  <%= link_to image_tag("insp.jpg"), new_room_path, class:"roomimage" %>
+  </div>
+
+    <div class="change">
+  <%= link_to image_tag("change.jpg"), changes_path, class:"roomimage" %>
+  </div>
+
+    <div class="room">
+  <%= link_to image_tag("room.jpg"), new_room_path, class:"roomimage" %>
+  </div>
+
+  <div class="mail">
+  <%= link_to image_tag("mail.jpg"), new_room_path, class:"roomimage" %>
+  </div>
+
+
 </div>
   <% end %>
